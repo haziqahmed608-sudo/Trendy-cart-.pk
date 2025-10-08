@@ -1,0 +1,83 @@
+
+
+
+
+
+---
+
+💻 Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrendyCart.com</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f8f8ff; color: #333; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h1 { color: #4f46e5; margin: 0; }
+    input { padding: 8px 12px; border-radius: 20px; border: 1px solid #ccc; width: 200px; }
+    .hero { text-align: center; padding: 80px 20px; background: linear-gradient(90deg, #4f46e5, #9333ea); color: white; }
+    .hero h2 { font-size: 2.5em; margin-bottom: 10px; }
+    .btn { background: white; color: #4f46e5; border: none; padding: 10px 20px; border-radius: 25px; cursor: pointer; font-weight: bold; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; max-width: 1000px; margin: auto; }
+    .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 250px; object-fit: cover; }
+    .card-content { padding: 15px; }
+    .card-content h3 { margin: 0 0 10px; }
+    .card-content .price { color: #4f46e5; font-weight: bold; }
+    footer { text-align: center; padding: 20px; background: white; color: gray; margin-top: 40px; box-shadow: 0 -2px 5px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TrendyCart</h1>
+    <input type="text" placeholder="Search products..." />
+  </header>
+
+  <section class="hero">
+    <h2>Discover the Trendiest Products Online</h2>
+    <p>Shop smart, shop trendy — only on TrendyCart.com</p>
+    <button class="btn">Shop Now</button>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606813902798-0c3c8d6f7f8a" alt="Sneakers">
+      <div class="card-content">
+        <h3>Stylish Sneakers</h3>
+        <p class="price">$59.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975918318-3e45bda6e81e" alt="T-Shirt">
+      <div class="card-content">
+        <h3>Classic T-Shirt</h3>
+        <p class="price">$19.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1585386959984-a41552231693" alt="Backpack">
+      <div class="card-content">
+        <h3>Trendy Backpack</h3>
+        <p class="price">$39.99</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 TrendyCart.com — All rights reserved.</footer>
+
+</body>
+</html>
+
+
+---
+
+
+
+
+
+
+
